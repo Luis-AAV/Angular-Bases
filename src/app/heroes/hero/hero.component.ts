@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-heroes-hero',
-  templateUrl: './hero.component.html',
-  styleUrl: './hero.component.css'
+  templateUrl: './hero.component.html'
 })
 
 export class HeroComponent {

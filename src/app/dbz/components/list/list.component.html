@@ -1,0 +1,7 @@
+<h4>Lista de Personajes</h4>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let character of characterList">
+      {{ character.name }} - <b>Poder: </b><b [class]="colorTexto">{{ character.power }}</b>
+      <button class="btn btn-outline-danger" (click)="onDeleteCharacter(character.id)"> x </button>
+    </li>
+  </ul>
