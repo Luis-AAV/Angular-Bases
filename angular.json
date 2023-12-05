@@ -41,7 +41,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "https://[path]",
+              "baseHref": "https://luis-aav.github.io/angular-bases/",
               "budgets": [
                 {
                   "type": "initial",
